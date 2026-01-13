@@ -1,6 +1,6 @@
 # ehiniumChat
 
-**ehiniumChat** is a lightweight, private group chat system designed for Linux servers with **limited or no internet access**.  
+**ehiniumChat** is a lightweight, private group chat system designed for Linux servers. 
 It uses only system packages, stores data in SQLite, and provides a clean Telegram-like UI with realtime messaging.
 
 This project is intentionally simple, auditable, and self-hosted.
@@ -74,7 +74,7 @@ sudo mkdir -p /opt/ehiniumChat/uploads
 ### 3) Get the code
 Option A: using GitHub:
 ```bash
-git clone https://github.com/YOUR_USERNAME/ehiniumChat.git
+git clone https://github.com/ehinium/ehiniumChat.git
 sudo mkdir -p /opt/ehiniumChat
 sudo cp -a ehiniumChat/* /opt/ehiniumChat/
 ```
